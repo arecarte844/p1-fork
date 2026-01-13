@@ -1,0 +1,29 @@
+ENTORNO JAVA (Práctica 1)
+
+Java 17
+Comando: java --version
+Salida: openjdk 25.0.1 2025-10-21 LTS
+OpenJDK Runtime Environment Microsoft-12574222 (build 25.0.1+8-LTS)
+OpenJDK 64-Bit Server VM Microsoft-12574222 (build 25.0.1+8-LTS, mixed mode, sharing)
+
+Comando: javac --version
+Salida: javac 25.0.1
+
+Maven
+Comando: mvn --version
+Salida: Apache Maven 4.0.0-rc-5 (fb3ecaef88106acb40467a450248dfdbd75f3b35)
+Maven home: /usr/local/sdkman/candidates/maven/current
+Java version: 25.0.1, vendor: Microsoft, runtime: /usr/local/sdkman/candidates/java/25.0.1-ms
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "6.8.0-1030-azure", arch: "amd64", family: "unix"
+
+VSCode
+Comando: code --version
+Salida:
+1.108.0
+94e8ae2b28cb5cc932b86e1070569c4463565c37
+x64
+
+IntelliJ
+Evidencia: (captura de About / ventana)
+Descripción: (pegar aquí)
