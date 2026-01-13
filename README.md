@@ -1,24 +1,22 @@
-# Práctica 1
+# Práctica 1 — Git y GitHub + Entorno Java
 
-Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
+Repositorio de entrega: https://github.com/arecarte844/p1-fork
 
-## ¿Como probar en la nube?
+## Evidencias
+- 📄 [git.txt](./git.txt)
+- 📄 [entorno.txt](./entorno.txt)
 
-[Github-Codespaces](https://github.com/features/codespaces)
+## Capturas
+### Java y Maven
+![Java version](./evidencias/java_version.png)
+![Maven version](./evidencias/maven_version.png)
 
-## Comandos git básicos
+### Editores
+![VSCode](./evidencias/vscode.png)
+![IntelliJ](./evidencias/intellij.png)
 
-```
-git clone https://github.com/gitt-3-pat/p1
-git status
-git add .
-git commit -m "TU MENSAJE"
-git push
-
-git checkout -b feature/1
-git checkout main
-```
-
-## ¿Cómo escribir un README.md con formato?
-
-[Github Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+## Pasos realizados
+1. Fork del repositorio `https://github.com/gitt-3-pat/p1`
+2. Clonado con `git clone`
+3. Prueba de comandos: `status`, `add`, `commit`, `push`, `checkout`
+4. Evidencias del entorno: Java 17, Maven, VSCode, IntelliJ
