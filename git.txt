@@ -1,0 +1,23 @@
+git clone
+- Qué hace: descarga un repositorio remoto y crea una copia local con historial.
+- Para qué lo usé: clonar mi fork en el Codespace/PC.
+
+git status
+- Qué hace: muestra el estado del repo (rama, cambios, staged, untracked).
+- Para qué lo usé: comprobar cambios antes/después de add/commit.
+
+git add
+- Qué hace: añade archivos al staging area (preparación del commit).
+- Para qué lo usé: preparar git.txt y entorno.txt para el commit.
+
+git commit
+- Qué hace: guarda un snapshot en el historial local con un mensaje.
+- Para qué lo usé: registrar los cambios antes de subirlos a GitHub
+
+git push
+- Qué hace: sube commits locales al repositorio remoto en GitHub.
+- Para qué lo usé: publicar mis commits en mi repo
+
+git checkout
+- Qué hace: cambia de rama o restaura archivos.
+- Para qué lo usé: crear una rama de prueba y volver a main.
