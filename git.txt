@@ -1,10 +1,30 @@
 git clone
 - Qué hace: descarga un repositorio remoto y crea una copia local con historial.
 - Para qué lo usé: clonar mi fork en el Codespace/PC.
+- Logs: 
+$ git clone https://github.com/arecarte844/p1-fork p1-fork-clone-test
+Cloning into 'p1-fork-clone-test'...
+remote: Enumerating objects: 32, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 32 (delta 7), reused 17 (delta 4), pack-reused 10 (from 2)
+Receiving objects: 100% (32/32), 552.50 KiB | 55.25 MiB/s, done.
+Resolving deltas: 100% (7/7), done.
 
 git status
 - Qué hace: muestra el estado del repo (rama, cambios, staged, untracked).
 - Para qué lo usé: comprobar cambios antes/después de add/commit.
+- Logs:
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
 
 git add
 - Qué hace: añade archivos al staging area (preparación del commit).
