@@ -33,11 +33,53 @@ git add
 git commit
 - Qué hace: guarda un snapshot en el historial local con un mensaje.
 - Para qué lo usé: registrar los cambios antes de subirlos a GitHub
+- Logs: 
+@arecarte844 ➜ /workspaces/p1-fork (main) $ git commit -m "modify: modifying logs on git.txt"
+[main 8df3687] modify: modifying logs on git.txt
+ 1 file changed, 20 insertions(+)
 
 git push
 - Qué hace: sube commits locales al repositorio remoto en GitHub.
 - Para qué lo usé: publicar mis commits en mi repo
+- Logs:
+@arecarte844 ➜ /workspaces/p1-fork (main) $ git push 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.03 KiB | 1.03 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/arecarte844/p1-fork
+   2b7828a..8df3687  main -> main
 
 git checkout
 - Qué hace: cambia de rama o restaura archivos.
 - Para qué lo usé: crear una rama de prueba y volver a main.
+- Logs:
+@arecarte844 ➜ /workspaces/p1-fork (main) $ git checkout -b prueba-checkout
+Switched to a new branch 'prueba-checkout'
+@arecarte844 ➜ /workspaces/p1-fork (prueba-checkout) $ echo "Hola desde la rama prueba-checkout" > checkout.txt
+@arecarte844 ➜ /workspaces/p1-fork (prueba-checkout) $ git add checkout.txt
+@arecarte844 ➜ /workspaces/p1-fork (prueba-checkout) $ git commit -m "test: checkout branch"
+[prueba-checkout 08eaee8] test: checkout branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 checkout.txt
+@arecarte844 ➜ /workspaces/p1-fork (prueba-checkout) $ git push origin prueba-checkout
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'prueba-checkout' on GitHub by visiting:
+remote:      https://github.com/arecarte844/p1-fork/pull/new/prueba-checkout
+remote: 
+To https://github.com/arecarte844/p1-fork
+ * [new branch]      prueba-checkout -> prueba-checkout
+@arecarte844 ➜ /workspaces/p1-fork (prueba-checkout) $ git checkout main
+M       git.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
