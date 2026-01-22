@@ -25,5 +25,24 @@ Salida:
 x64
 
 IntelliJ
-Evidencia: (captura de About / ventana)
-Descripción: (pegar aquí)
+Evidencia: (./evidencias/intellij.png)
+Descripción: IntelliJ 2025.3.1.1 IntelliJ IDEA 2025.3.1.1
+Build #IU-253.29346.240, built on January 8, 2026
+Source revision: 45c13268926ea
+
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+Toolkit: sun.lwawt.macosx.LWCToolkit
+macOS 15.6
+GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+Memory: 2048M
+Cores: 10
+Metal Rendering is ON
+Registry:
+  ide.experimental.ui=true
+  maven.packagesearch.enabled=false
+  llm.jcp.analytics.endpoint.url=https://api.jetbrains.cloud/analytics/events/push
+Non-Bundled Plugins:
+  org.jetbrains.junie (253.549.156)
+  com.intellij.ml.llm (253.29346.331)
+Kotlin: 253.29346.240-IJ
+
